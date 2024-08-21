@@ -119,16 +119,7 @@ if __name__== "__main__":
         elif 'open word' in query:
             wordPath = "C:\\Program Files\\Microsoft Office\\root\Office16\\WINWORD.EXE" 
             os.startfile(wordPath)
-            
-        elif 'role of sahil' in query:
-            speak(f"Mister sahil has worked on This project named AI personal assistant. He helped his team to work on voice recognition, take command and also worked on os modules and date time module so user can use various os functionality and get date time info. he also made the pre submission report of this project.") 
-            
-        elif 'role of shubham' in query:
-            speak(f"Mister shubham has worked on This project named AI voice assistant. He helped his team to implement queries in the program to open various software and website on voice recognition. He also worked on final report of this AI project.") 
-            
-        elif 'role of chandan' in query:
-            speak(f"Mister chandan has worked on This project named AI voice assistant. He helped his team to implement wikipedia module so that user can search various topics available on wikipedia by voice recognition.He also worked on final report of this AI project.") 
-    
+       
         elif 'how are you' in query:
             speak(f"I'm working smooth, anything else i can help you with?")
         
@@ -139,7 +130,7 @@ if __name__== "__main__":
             speak("Hii! my name is Sunny. how may i assist you?")
     
         elif 'close' in query:
-            speak(f"Jay Shree Raam!")
+            speak(f"Have a Good day!")
             quit()
         
         elif 'news' in query:
